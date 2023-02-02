@@ -1,0 +1,83 @@
+* {
+    font-family: 'Red Hat Text', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: hsl(237, 18%, 59%);
+    background-image: url("images/FIFAworldcuptrophy.jpg");
+    
+}
+
+h1 {
+    margin: 5% auto;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+span {
+    color:dodgerblue;
+    font-size: 2rem;
+}
+
+.time {
+    margin: 10% auto;
+}
+
+.countdown {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    outline: none;
+    margin: 5px;
+    border-radius: 15px;
+    line-height: 3.5;
+}
+
+.footer-icons {
+    padding-bottom: 10px;
+}
+
+i {
+    margin: 15px;
+    color: #fff;
+}
+
+i:hover {
+    color: dodgerblue;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 12px;
+     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color:dodgerblue;
+}
+
+@media screen and (max-width: 1050px) {
+    h1 {
+        margin: 5% auto;
+    }
+    .time {
+        margin: 15% auto;
+    }
+    
+}
